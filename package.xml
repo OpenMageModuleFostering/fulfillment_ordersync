@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Fulfillment_Ordersync</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://www.opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>To sync the Magento orders with Storeship for shipping</summary>
+    <description>To sync the Magento orders with Storeship for shipping</description>
+    <notes>To sync the Magento orders with Storeship for shipping</notes>
+    <authors><author><name>Storeship</name><user>Storeship</user><email>sales@storeship.co.uk</email></author></authors>
+    <date>2014-05-09</date>
+    <time>06:52:09</time>
+    <contents><target name="magecommunity"><dir name="Fulfillment"><dir name="Ordersync"><dir name="Helper"><file name="Data.php" hash="018943e4fed216c0566687443a3c3513"/></dir><dir name="controllers"><file name="IndexController.php" hash="6c50864d7440d8b6363290d95021ca40"/></dir><dir name="etc"><file name="adminhtml.xml" hash="760529eb184e19c83cb61afc82abb789"/><file name="config.xml" hash="d971cff9c0809c03148410d704ffdd0e"/><file name="system.xml" hash="d3ce08ae5da3d7cbe7694da642ca489f"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Fulfillment_Ordersync.xml" hash="8af85a52db86eb7e0e0f86d0d741d0fc"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

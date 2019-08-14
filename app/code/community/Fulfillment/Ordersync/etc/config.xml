@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+
+<config>
+  <modules>
+    <Fulfillment_Ordersync>
+      <version>1.0.0</version>
+    </Fulfillment_Ordersync>
+  </modules>
+    <admin>
+        <routers>
+            <fulfillment>
+                <use>admin</use>
+                <args>
+                    <module>Fulfillment_Ordersync</module>
+                    <frontName>fulfillment</frontName>
+                </args>
+            </fulfillment>
+        </routers>
+    </admin>
+   
+	<global>
+		<helpers>
+            <ordersync>
+                <class>Fulfillment_Ordersync_Helper</class>
+            </ordersync>
+        </helpers>
+    </global>
+</config>

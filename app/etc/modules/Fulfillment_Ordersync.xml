@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!-- 
+/**
+ * Fulfillment
+ *
+ * Fulfillment Ordersync extension
+ * @category   Fulfillment
+ * @package    Fulfillment_Ordersync
+ * @copyright  Copyright (c) 2011 Fulfillment 
+ * @author     Fulfillment Dev Team
+ 
+*/
+
+-->
+<config>
+    <modules>
+        <Fulfillment_Ordersync>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Fulfillment_Ordersync>
+    </modules>
+</config>
