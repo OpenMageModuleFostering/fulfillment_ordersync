@@ -59,7 +59,9 @@ class Fulfillment_Ordersync_IndexController extends Mage_Core_Controller_Front_A
 				$customer_email = $_shippingAddress->getEmail();				
 			    $customerNote = $col->getCustomerNote();
 				$telephone = $_shippingAddress->getTelephone();
-				
+				$$postcode = $_shippingAddress->getPostcode();
+				$fax = $_shippingAddress->getFax();
+				$vat = $_shippingAddress->getVatId();
 				
 				$products = array();
 				$items = $col->getAllVisibleItems();
@@ -94,7 +96,10 @@ class Fulfillment_Ordersync_IndexController extends Mage_Core_Controller_Front_A
 						"basegrandtotal=".$this->_csvSafe($basegrandtotal).",".
 						"baseshippingaaxamount=".$this->_csvSafe($baseshippingaaxamount).",".						
 						"customerNote=".$this->_csvSafe($customerNote).",".	
-						"telephone=".$this->_csvSafe($telephone).",".	
+						"telephone=".$this->_csvSafe($telephone).",".
+						"postcode=".$this->_csvSafe($postcode).",".
+						"fax=".$this->_csvSafe($fax).",".
+						"vat=".$this->_csvSafe($vat).",".	
 					 	"products=".$products_str;
 					 
 				if(isset($csvstring) && $csvstring!="")
