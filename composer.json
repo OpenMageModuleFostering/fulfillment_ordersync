@@ -1,5 +1,5 @@
 {
-    "name": "OpenMageModuleFostering\/Fulfillment_Ordersync",
+    "name": "openmage-module-fostering\/fulfillment_ordersync",
     "type": "magento-module",
     "license": "OSL-v3.0",
     "homepage": "",
