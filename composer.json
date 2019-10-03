@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Fulfillment_Ordersync",
+    "name": "OpenMageModuleFostering\/Fulfillment_Ordersync",
     "type": "magento-module",
     "license": "OSL-v3.0",
     "homepage": "",
     "description": "To sync the Magento orders with Storeship for shipping",
     "authors": [
-    {
-        "name": "Storeship",
-        "email": "sales@storeship.co.uk"
-    }
-],
+        {
+            "name": "Storeship",
+            "email": "sales@storeship.co.uk"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
